@@ -17,13 +17,22 @@ void getdata(){
 };
 int student :: count;
 int main(){
-student swastik, abhijeet, harshit;
-swastik.setdata();
-swastik.getdata();
+// student swastik, abhijeet, harshit;
+// swastik.setdata();
+// swastik.getdata();
 
-harshit.setdata();
-harshit.getdata();
+// harshit.setdata();
+// harshit.getdata();
 
-abhijeet.setdata();
-abhijeet.getdata();
+// abhijeet.setdata();
+// abhijeet.getdata();
+
+//---ANOTHER WAY TO DO IT IS BY CREATING AN ARRAY OF OBJECTS---
+
+student ce[3];
+
+for(int i=0; i<3; i++){
+    ce[i].setdata();
+    ce[i].getdata();
+}
 }
